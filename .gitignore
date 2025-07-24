@@ -1,0 +1,5 @@
+#virtual environment
+venv/
+.env
+
+test_tech_bia
