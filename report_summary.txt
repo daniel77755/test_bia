@@ -1,0 +1,19 @@
+Reporte de Datos Enriquecidos
+Total de coordenadas: 2020643
+Con c�digo postal: 19507
+Sin c�digo postal: 2001136
+Porcentaje de cobertura: 0.97%
+
+
+Top 10 c�digos postales m�s comunes:
+nearest_postcode
+LS1 1AZ     3
+BS5 5DT     3
+CF62 3YA    3
+N13 4AY     3
+CM6 1DH     3
+TF2 2DB     3
+NR1 1JZ     3
+DE13 0YL    3
+LS14 2SD    3
+ST16 1AA    3
