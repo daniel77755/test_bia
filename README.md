@@ -38,7 +38,7 @@ pip install pandas sqlalchemy requests
 ```
 proyecto-etl/
 ├── main.py                 # Script principal ETL
-├── postcodesgeo.csv        # Archivo fuente (requerido)
+├── postcodesgeo.csv        # Archivo fuente (requerido) este archivo debe cargarse de manera local.
 ├── db_postcodes.db         # Base de datos SQLite (generada)
 ├── enriched_data.csv       # Datos enriquecidos (generado)
 ├── report_summary.txt      # Reporte de estadísticas (generado)
@@ -161,6 +161,10 @@ Para contribuir al proyecto:
 
 1. Fork el repositorio
 2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+3. No olvides cargar el archivo .csv fuente de manera local antes de realizar alguna prueba.
+4. Crea un ambiente virtual con los requirements necesarios
+5. Ten en cuenta que el proceso usa como base de datos SQLite, por lo que si no lo tienes instalado, deberás realizar este paso antes de seguir.
+6. Ejecuta el codigo.
+4. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+5. Push a la rama (`git push origin feature/AmazingFeature`)
+6. Abre un Pull Request

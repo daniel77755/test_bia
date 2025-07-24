@@ -89,9 +89,9 @@ def fetch_postcode(lat, lon):
 
 # Enriquecer usando multihilos
 def enrich_with_api(df):
-    MAX_COORDS = 20000
-    coords = list(zip(df['lat'], df['lon']))[:MAX_COORDS] 
-    #coords = list(zip(df['lat'], df['lon']))
+    #MAX_COORDS = 20000
+    #coords = list(zip(df['lat'], df['lon']))[:MAX_COORDS] 
+    coords = list(zip(df['lat'], df['lon']))
     postcodes = [None] * len(df)
 
     with ThreadPoolExecutor(max_workers=17) as executor:
